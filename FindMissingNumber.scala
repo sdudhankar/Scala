@@ -7,7 +7,7 @@ object FindMissingNumber {
          var sum = (a.length+1)*(a.length+2)/2
          println(sum)
          for(i<-0 to a.length-1)
-            sum=sum-a(i)
+            sum=sum-a(i);
         return sum;       
      }
    }
