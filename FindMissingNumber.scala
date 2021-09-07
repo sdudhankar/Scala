@@ -8,7 +8,7 @@ object FindMissingNumber {
          println(sum)
          for(i<-0 to a.length-1)
             sum=sum-a(i)
-        sum    
+        return sum    
      }
    }
 }
